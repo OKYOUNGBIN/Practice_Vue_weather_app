@@ -22,7 +22,7 @@ export default {
         { code: "Seoul", label: "서울", selected: false },
         { code: "Tokyo", label: "도쿄", selected: false },
         { code: "London", label: "런던", selected: false },
-        { code: "NewYork", label: "뉴욕", selected: false },
+        { code: "New York City", label: "뉴욕", selected: false },
         { code: "Moscow", label: "모스크바", selected: false },
       ],
     };
@@ -30,6 +30,7 @@ export default {
   methods: {
     selectCity(city) {
       city.selected = !city.selected;
+      this.$emit("selectCity", city);
     },
   },
 };
