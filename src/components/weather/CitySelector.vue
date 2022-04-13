@@ -24,6 +24,7 @@ export default {
         { code: "London", label: "런던", selected: false },
         { code: "New York City", label: "뉴욕", selected: false },
         { code: "Moscow", label: "모스크바", selected: false },
+        { code: "Busan", label: "부산", selected: false },
       ],
     };
   },
